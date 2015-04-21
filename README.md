@@ -21,3 +21,9 @@ Link to website:  http://stasf.github.io/
 * GitHub
 * Node.JS
 * http-server
+
+## Usability
+- Preview sounds on the home page by clicking the Play button beside the sample name
+- Click the checkbox beside the samples you like
+- Click checkout to go to the next page
+- Go back to the homepage if you want to change your selection
