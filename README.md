@@ -1,6 +1,6 @@
 # Music Sample Store App
 
-Music Store App is a website that lets users preview and select common sound samples.
+Music Store App is a website that lets users preview and select common sound samples. The app utilizes localStorage which remembers user's selection after a page refresh / browser reload.
 
 Link to website:  http://stasf.github.io/
 
@@ -21,6 +21,9 @@ Link to website:  http://stasf.github.io/
 * GitHub
 * Node.JS
 * http-server
+
+## Limitations
+- Used default media player for the [Play] button, which makes it appear inconsistent across different browsers
 
 ## Usability
 - Preview sounds on the home page by clicking the Play button beside the sample name
