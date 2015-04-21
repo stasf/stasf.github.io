@@ -1,0 +1,14 @@
+{
+    "name": "sound-samples",
+    "version": "0.0.1",
+    "author": "Stas Frolov",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stasf/soundSamples.git"
+    },
+    "devDependencies": {
+        "connect": "3.3.5",
+        "http-server": "0.7.5",
+        "serve-static": "1.9.2"
+    }
+}

@@ -1,0 +1,23 @@
+<form name="sampleTiles" id="sampleTiles">
+	<div class="row tile" ng-repeat="tile in Tile.tiles">
+		<div class="item audio">
+			<audio controls>
+					<source ng-src="{{tile.audioSrc}}" type="audio/wav">
+					Your browser does not support audio
+			</audio>
+		</div>
+
+		<h4 class="item sampleName">{{tile.name}}</h4>
+		<p class="item tileDescription">{{tile.description}}</p>
+		<div class="item text-right">
+			<input type="checkbox" class="priceCheck" value="{{tile.price}}" ng-model="Tile.tiles[ $index ].selected" ng-change="Tile.updateTotal($index)"></input>
+			<em class="text-right">{{tile.price | currency}}</em>
+		</div>
+		<br />
+	</div>
+</form>
+
+<div id="totalPrice">
+	<p>Total: {{Tile.totalPrice | currency}}</p>
+	<button type="button" ui-sref="checkout">Checkout</button>
+</div>

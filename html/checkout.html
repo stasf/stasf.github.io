@@ -1,0 +1,12 @@
+<button type="button" ui-sref="home">&lt;</button> Back to selection <h3><center>Checkout</center></h3>
+<div ng-repeat="tile in Tile.tiles | filter:{'selected': true}">
+	<p>#{{$index + 1}} <audio controls class="checkoutAudio">
+					<source ng-src="{{tile.audioSrc}}" type="audio/wav">
+					Your browser does not support audio
+			</audio>
+			{{tile.name}} 
+			<div class="float-right">{{tile.price | currency}}</div>
+	</p>
+	<hr />
+</div>
+<p style="float:right">Total: <strong>{{Tile.totalPrice | currency}}</strong></p>
