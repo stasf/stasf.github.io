@@ -1,4 +1,4 @@
-# Music Store App
+# Music Sample Store App
 
 Music Store App is a website that lets users preview and select common sound samples.
 
