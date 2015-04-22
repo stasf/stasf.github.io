@@ -23,7 +23,7 @@ Link to website:  http://stasf.github.io/
 * http-server
 
 ## Limitations
-- Used default media player for the [Play] button, which makes it appear inconsistent across different browsers
+- Used default media player for the [Play] button, which makes it appear inconsistent across different browsers. This limitation can be solved by creating art for my own buttons with the same functionality as the built-in <audio> tag
 
 ## Usability
 - Preview sounds on the home page by clicking the Play button beside the sample name
